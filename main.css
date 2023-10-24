@@ -1,0 +1,178 @@
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    background-color: #152840;
+}
+h1 {
+    font-size: 5em;
+    font-family: Rajdhani, sans-serif;
+    font-weight: 500;
+    color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    font-size: 3em;
+    font-family: Rajdhani, sans-serif;
+    color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+h3 {
+    font-size: 2em;
+    font-family: 'Sometype Mono', monospace;
+    color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-size: 1.25em;
+    font-family: 'Sometype Mono', monospace;
+    padding: 0;
+    margin: 0;
+    color: #152840;
+}
+
+.landingPage {
+    height: 100vh;
+    width: 100vw;
+    font-size: 1em;
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    border-bottom: 2px solid #3088BF;
+    margin: 0 4rem 5rem 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h3 {
+    font-size: 1.5em;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header li {
+    color: whitesmoke;
+    font-size: 1.25em;
+    font-family: 'Sometype Mono', monospace;
+    font-weight: 600;
+    display: inline-block;
+    padding: 1rem;
+}
+
+header a:link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: whitesmoke;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header a:active {
+    color: #52B3D9;
+}
+
+#main-h1 {
+    font-weight: 400;
+    text-align: center;
+}
+
+#main-h2 {
+    text-align: center;
+    font-weight: 300;
+    margin: 2rem 0 8rem 0;
+}
+
+.projectContainers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #3088BF;
+    height: 400px;
+    width: 600px;
+    margin: 10px;
+    padding: 2rem 1rem;
+    text-align: center;
+    transition: all 300ms ease-in;
+}
+
+.box:hover {
+    background-color: #52B3D9;
+}
+
+.box h3 {
+    color: #152840;
+    font-size: 1.25em;
+    padding-top: 1rem;
+}
+
+.box img {
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    margin: 11rem 4rem 0 4rem;
+    border-top: 2px solid #3088BF;
+    text-align: center;
+}
+
+footer p {
+    color: whitesmoke;
+    padding: 2rem;
+    font-size: 1rem;
+}
+
+footer a:link {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+footer a:visited {
+    color: whitesmoke;
+}
+
+footer a:active {
+    color: #52B3D9;
+}
+/* button -----
+.box-button {
+    width: 200px;
+    height: 50px;
+    background-color: #152840;
+
+}
+
+.box-button-text {
+    color: whitesmoke;
+    font-size: 1rem;
+    font-family: 'Sometype Mono', monospace;
+    text-align: center;
+    line-height: 50px;
+}  */
+
+/* === PROJECT PAGES === */
+.project-h1 {
+    text-align: center;
+}
